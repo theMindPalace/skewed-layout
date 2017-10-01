@@ -13,14 +13,37 @@ html {
 
 body {
     position: relative;
+     overflow-x: hidden;
+}
+
+.wrapper {
+    width:100%;
+    display: flex;
+    position: relative;
+}
+
+main {
+    width:100%;
+    /*transform: translate3d(220px,0,0);*/
+}
+
+.sidebar {
+  position: absolute;
+  width: 220px;
+  background-color: rgba(39, 14, 51, 0.91);
+  min-height: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #eee;
+
 }
 
 section {
     height: 100vh;
 }
 footer {
-    min-height: 120px;
-    background-color: #111;
+    min-height: 35px;
+    background-color: #efefef;
     bottom: 120px;
     position: absolute;
     bottom: 0;
@@ -94,9 +117,17 @@ footer .container {
     width: 30%;
     padding: 1em;
     text-align: center;
-    box-shadow: 1px 1px #ccc;
+    /*box-shadow: 1px 1px #ccc;*/
     border-radius: 3px;
-    border:  1px #ccc;
+    border: 1px solid #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-item img {
+    width: 150px;
+
 }
 
 /* Technology stacks */
