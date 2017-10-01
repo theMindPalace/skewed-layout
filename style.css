@@ -65,7 +65,8 @@ footer .container {
     height: 80vh;
     width: 100%;
     position: relative;
-    background: linear-gradient(to right, #673AB7 0%,#9C27B0 100%)
+    /*background: linear-gradient(to right, #673AB7 0%,#9C27B0 100%)*/
+    background: linear-gradient(to right, #333 0%,#444 100%)
 }
 
 .skewed::after{
@@ -83,7 +84,7 @@ footer .container {
 
 .skewed .s-content {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,6 +92,13 @@ footer .container {
     height: 100%;
     color: #fff;
     padding: 1em;
+}
+
+.skewed .s-content h1 {
+    font-size: 2em;
+}
+.skewed .s-content p {
+    font-size: 1.3em;
 }
 
 .content {
@@ -103,13 +111,29 @@ footer .container {
     margin:20px 0;
 }
 
+/* Main navigation */
+nav{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+}
 
 /* Service showcase */
 
 .showcase {
     display: flex;
     justify-content: space-between;
-    height: 300px;
 }
 
 .showcase-item {
@@ -129,7 +153,11 @@ footer .container {
     width: 150px;
 
 }
-
+.showcase-item h1 {
+    font-size: 1em;
+    color: #313131;
+    margin:5px 0;
+}
 /* Technology stacks */
 .tech-stacks {
     margin:20px 0 5px 0;
@@ -137,3 +165,14 @@ footer .container {
     text-align: center;
     color: #aaa;
 }
+
+.tech-stacks ul {
+    list-style: none;
+    margin-top: 3px;
+}
+
+.tech-stacks ul li {
+    display: inline;
+    margin: 0 2px 0 2px;
+}
+
