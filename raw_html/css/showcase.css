@@ -1,0 +1,29 @@
+/* Service showcase */
+
+.showcase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase-item {
+    /*background-color: blue;*/
+    width: 30%;
+    padding: 1em;
+    text-align: center;
+    /*box-shadow: 1px 1px #ccc;*/
+    border-radius: 3px;
+    border: 1px solid #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-item img {
+    width: 150px;
+
+}
+.showcase-item h1 {
+    font-size: 1em;
+    color: #313131;
+    margin:5px 0;
+}

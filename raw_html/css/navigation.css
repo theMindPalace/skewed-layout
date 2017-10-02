@@ -1,0 +1,17 @@
+/* Main navigation */
+nav{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+}

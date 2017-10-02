@@ -1,0 +1,17 @@
+/* Technology stacks */
+.tech-stacks {
+    margin:20px 0 5px 0;
+    padding: .5em;
+    text-align: center;
+    color: #aaa;
+}
+
+.tech-stacks ul {
+    list-style: none;
+    margin-top: 3px;
+}
+
+.tech-stacks ul li {
+    display: inline;
+    margin: 0 2px 0 2px;
+}
